@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>New Tech | Online Shopping</title>
+    <link rel="icon" href="resources/logo.png">
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- phone nav bar -->
+    <div class="container-fluid d-lg-none d-grid bg-light fixed-bottom">
+        <div class="row mt-2 text-center">
+
+            <div class="col-3">
+                <a class="text-decoration-none text-dark" href="index.html">
+                    <i class="fs-4 bi bi-house-door"></i>
+                    <p class="text-center text-dark fs-6">Home</p>
+                </a>
+            </div>
+            <div class="col-3">
+                <a class="text-decoration-none text-dark" href="#">
+                    <i class="fs-4 bi bi-list"></i>
+                    <p class="text-center text-dark fs-6">Catergory</p>
+                </a>
+            </div>
+            <div class="col-3">
+                <a class="text-decoration-none text-dark" href="cart.html">
+                    <i class="fs-4 bi bi-cart4"></i>
+                    <p class="text-center text-dark fs-6">Cart</p>
+                </a>
+            </div>
+            <div class="col-3">
+                <a class="nav-link dropdown-header-toggle text-dark text-decoration-none " data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                    <i class="fs-4 bi bi-person-circle"></i>
+                    <p class="text-center text-dark fs-6">Account</p>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="userProfile.html"><i class="bi bi-person-circle"></i> My Account</a></li>
+                    <li><a class="dropdown-item" href="watchlist.html"><i class="bi bi-suit-heart"></i> My Watchlist</a></li>
+                    <li><a class="dropdown-item" href="myOrders.html"><i class="bi bi-truck"></i> My Orders</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="bi bi-chat-left-dots"></i> My Messages</a></li>
+                    <li><a class="dropdown-item" href="#" onclick="logOut();"><i class="bi bi-box-arrow-right"></i> Logout</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!-- phone nav bar -->
+
+    <script src="bootstrap.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+.contact_icon {
+    color: #2f32fd;
+}
+
+.badge {
+    background-color: rgb(250, 130, 17);
+}
+
+.navbar_bg {
+    /* background-color: rgb(250, 130, 17); */
+    background: linear-gradient(90deg, #5da9db, #2793eb, #0782e7, #2f32fd, #0417c0);
+    /* background: linear-gradient(90deg, #0417c0, #2f32fd, #0782e7, #2793eb, #5da9db); */
+}
+
+.c_hover {
+    transition-duration: 0.3s;
+    color: black;
+}
+
+.c_hover:hover {
+    transition-duration: 0.3s;
+    background: linear-gradient(90deg, #0417c0, #2f32fd, #0782e7, #2793eb, #5da9db);
+    color: white;
+}
+
+.txt4 {
+    font-size: 14px;
+}
+
+.price {
+    color: rgb(255, 136, 0);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cut {
+    color: gray;
+    font-size: 12px;
+}
+
+.percentage {
+    color: rgb(99, 97, 97);
+    font-size: 12px;
+}
+
+.checked {
+    color: rgb(240, 172, 46);
+    font-size: 12px;
+}
+
+.cd {
+    border: rgb(236, 236, 240) 1px solid;
+    transition-duration: 0.5s;
+}
+
+.cd:hover {
+    outline-color: rgb(236, 236, 240);
+    transition-duration: 0.5s;
+    transform: scale(1.02);
+    box-shadow: 0.5px 0.5px 0.8px 0.8px rgb(230, 230, 233);
+}
+
+.footer_bg {
+    background-color: #000d1f;
+}
+
+.signin_btn {
+    background: linear-gradient(90deg, #0417c0, #2f32fd, #0782e7, #2793eb, #5da9db);
+    color: white;
+}
+
+.signin_btn:hover {
+    background: linear-gradient(90deg, #5da9db, #2793eb, #0782e7, #2f32fd, #0417c0);
+    color: white;
+}
+
+.price {
+    color: rgb(255, 136, 0);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.txt_color {
+    color: rgb(223, 118, 19);
+    font-weight: 500;
+}
+
+.cart_btn {
+    background-color: rgb(7, 182, 7);
+    color: white;
+}
